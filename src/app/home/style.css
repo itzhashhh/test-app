@@ -1,0 +1,12 @@
+.img {
+    display: none;
+}
+
+.box {
+    width: 500px;
+    height: 700px;
+    background-color: #171717;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transform: perspective(100px) rotateX(10deg) translateZ(-100px);
+    transform-style: preserve-3d;
+}
